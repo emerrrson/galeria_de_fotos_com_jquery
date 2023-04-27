@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Fotos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Galeria de Fotos</h1>
+        <button type="button"> Nova Imagem +</button>
+    </header>
+    <form>
+        <h2> Inserir nova imagem </h2>
+        <input type="url" id="endereco-da-nova-imagem" required placeholder="URL da Imagem">
+        <button type="submit">Adicionar</button>
+        <button type="reset" id="botao-cancelar">Cancelar</button>
+    </form>
+    <ul>
+        <li>
+            <img src="imagens/dog.jpg" alt="">
+            <div class="overlay-imagem-link">
+                <a href="./imagens/dog.jpg" target="_blank">
+                    Veja a imagem em tamanho real
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="imagens/Londres.jpg" alt="">
+            <div class="overlay-imagem-link">
+                <a href="./imagens/Londres.jpg" target="_blank">
+                    Veja a imagem em tamanho real
+                </a>
+            </div class="overlay-imagem-link">
+        </li>
+        <li>
+            <img src="imagens/New York.jpg" alt="">
+            <div class="overlay-imagem-link">
+                <a href="./imagens/New York.jpg" target="_blank">
+                    Veja a imagem em tamanho real
+                </a>
+            </div class="overlay-imagem-link">
+        </li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script/script.js"></script>
+    
+</body>
+
+
+</html>
